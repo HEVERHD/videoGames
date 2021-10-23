@@ -14,12 +14,12 @@ module.exports = (sequelize) => {
 			type: DataTypes.STRING, //Cadena de letras
 			allowNull: false,
 		},
-		description: {
-			type: DataTypes.TEXT, //Texto
-			allowNull: false,
-		},
 		released: {
 			type: DataTypes.DATEONLY, //Fecha unica
+		},
+		image: {
+			type: DataTypes.TEXT, //URL
+			allowNull: false,
 		},
 		rating: {
 			type: DataTypes.FLOAT, //Decimal
@@ -28,8 +28,8 @@ module.exports = (sequelize) => {
 			type: DataTypes.ARRAY(DataTypes.STRING), //Arreglo con Cadena de letras
 			allowNull: false,
 		},
-		image: {
-			type: DataTypes.TEXT, //URL
+		description: {
+			type: DataTypes.TEXT, //Texto
 			allowNull: false,
 		},
 		createdInDb: {
