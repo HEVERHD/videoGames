@@ -2,13 +2,16 @@ const express = require('express');
 const router = express.Router();
 const axios = require('axios');
 require('dotenv').config();
-const { APYKEY } = process.env;
+const { YOUR_API_KEY } = process.env;
 const { Genre } = require('../db');
+// const { v4: uuidv4 } = require('uuid');
+
+// GET https://api.rawg.io/api/genres
 
 router.get('/genres', async (req, res) => {
 	try {
 		let genres = await axios.get(
-			`https://api.rawg.io/api/genres?key=${APIKEY}`
+			`https://api.rawg.io/api/genres?key=${YOUR_API_KEY}`
 		);
 		genres = genres.data.results;
 

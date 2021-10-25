@@ -2,28 +2,30 @@ const express = require('express');
 const router = express.Router();
 const axios = require('axios');
 require('dotenv').config();
-const { APIKEY } = process.env;
+const { YOUR_API_KEY } = process.env;
 const { Genre, Videogame, videogame_genre } = require('../db');
 const { v4: uuidv4 } = require('uuid');
 
 // GET https://api.rawg.io/api/games
 const getApiInfo = async () => {
-	let gamesPageOne = axios.get(`https://api.rawg.io/api/games?key=${APIKEY}`);
+	let gamesPageOne = axios.get(
+		`https://api.rawg.io/api/games?key=${YOUR_API_KEY}`
+	);
 
 	let gamesPageTwo = axios.get(
-		`https://api.rawg.io/api/games?key=${APIKEY}&page=2`
+		`https://api.rawg.io/api/games?key=${YOUR_API_KEY}&page=2`
 	);
 
 	let gamesPageThree = axios.get(
-		`https://api.rawg.io/api/games?key=${APIKEY}&page=3`
+		`https://api.rawg.io/api/games?key=${YOUR_API_KEY}&page=3`
 	);
 
 	let gamesPageFour = axios.get(
-		`https://api.rawg.io/api/games?key=${APIKEY}&page=4`
+		`https://api.rawg.io/api/games?key=${YOUR_API_KEY}&page=4`
 	);
 
 	let gamesPageFive = axios.get(
-		`https://api.rawg.io/api/games?key=${APIKEY}&page=5`
+		`https://api.rawg.io/api/games?key=${YOUR_API_KEY}&page=5`
 	);
 
 	let date = await Promise.all([
@@ -63,7 +65,7 @@ const getApiInfo = async () => {
 // GET https://api.rawg.io/api/games?search={game}
 const getApiByName = async (name) => {
 	const resAxios = await axios.get(
-		`https://api.rawg.io/api/games?search=${name}&key=${APIKEY}`
+		`https://api.rawg.io/api/games?search=${name}&key=${YOUR_API_KEY}`
 	);
 	const { results } = resAxios.data;
 	let response = results.map((result) => {
@@ -84,7 +86,7 @@ const getApiByName = async (name) => {
 
 const getApiById = async (id) => {
 	const resAxios = await axios.get(
-		`https://api.rawg.io/api/games/${id}?key=${APIKEY}`
+		`https://api.rawg.io/api/games/${id}?key=${YOUR_API_KEY}`
 	);
 	let response = resAxios.data;
 	return {
