@@ -211,7 +211,7 @@ router.post('/', async (req, res) => {
 			where: { name: genre },
 		});
 		if (genreDB.length !== genre.length) {
-			return res.json({ error: 'Genero no encontrado' });
+			return res.json({ error: 'X genero no encontrado X' });
 		}
 
 		let id = uuidv4();
@@ -227,7 +227,7 @@ router.post('/', async (req, res) => {
 		});
 
 		videoGameCreate.addGenre(genreDB);
-		res.send('Juego Creado');
+		res.send('!Juego creado con exito!');
 	} catch (error) {
 		res.status(400).json({ message: error });
 	}
