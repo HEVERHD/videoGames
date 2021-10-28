@@ -1,27 +1,10 @@
 .App {
-   color:#ff0000;
   text-align: center;
-  justify-content: center;
-  word-spacing: normal;
-  background: url('./assets/123456.jpg') no-repeat center center fixed;
-  /* opacity:0.5; */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-image: url(./background.jpg);
   background-size: cover;
-  backdrop-filter: blur(1px)
-
-}
-  
-
-
-body {
-  
-  background-image: url('./assets/123456.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: cover(30px);
-    height: 100vh;
-    width: 100vw; 
-    /* flex-direction: center; */
+  min-height: 100vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
 }
