@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
 
 .card {
-	border: 1px solid rgba(255, 123, 0, 0.489);
+	border: 1px solid rgba(255, 255, 255, 0.489);
 	border-radius: 10px;
-	background-color: rgba(255, 210, 12, 0.384);
+	background-color: rgba(255, 255, 255, 0.09);
 	box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.313);
 	width: 300px;
 	height: 250px;
@@ -38,15 +38,11 @@
 	display: flex;
 	align-items: start;
 }
-.imgs {
-    height: 15vh;
-}
 
 .img {
-	height: 15vh;
 	width: 300px;
 	overflow: hidden;
-	border-radius: 10px;
+	border-radius: 10px 10px 0px 0px;
 }
 
 .genres {
