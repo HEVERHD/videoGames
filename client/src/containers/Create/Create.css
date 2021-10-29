@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.container{
+    height: 94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 500px;
+    width: 650px;
+    background-color: rgba(255, 255, 255, 0.088);
+    padding: 5px;
+    margin-bottom: 120px;
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.313);
+}
+
+/* .divdiv{
+    display: flex;
+    align-content: space-around;
+} */
+
+.divTitles{
+    display: flex;
+    flex-direction: row;
+}
+
+.label{
+    width: 145px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: none;
+    margin: 5px;
+}
+
+.label:hover{
+    cursor: pointer;
+}
+
+.checkboxs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 650px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.gendivs{
+    display: flex;
+    
+}
+
+.perro{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.checks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.checks input:hover {
+    cursor: pointer;
+}
+
+.imagediv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.imagein{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: none;
+    margin: 5px;
+}
+
