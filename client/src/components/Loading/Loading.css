@@ -1,3 +1,4 @@
 .loading{
+    background: url("./loadingimg.gif");
     width: 180px;
 }

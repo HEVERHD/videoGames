@@ -1,10 +1,11 @@
-import React from "react";
-import "./Loading.css";
+import React from 'react';
+import './Loading.css';
+import './loadingimg.gif';
 
-export default function loading () {
-    return (
-        <div>
-            <img className="loading" src="https://www.seprelab.com/assets/img/loader.gif" alt="Link caido"/>
-        </div>
-    );
-};
+export default function loading() {
+	return (
+		<div>
+			<img className='loading' src='loadingimg.gif' alt='loading' />
+		</div>
+	);
+}
