@@ -1,6 +1,10 @@
 .showing{
+    border-color: red 3px solid;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
     width: 99%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
