@@ -1,11 +1,14 @@
 import React from 'react';
 import './Loading.css';
-import './loadingimg.gif';
 
 export default function loading() {
 	return (
 		<div>
-			<img className='loading' src='loadingimg.gif' alt='loading' />
+			<img
+				className='loading'
+				src='https://tenor.com/es/ver/loading-cargando-gif-15269201'
+				alt='Link caido'
+			/>
 		</div>
 	);
 }
