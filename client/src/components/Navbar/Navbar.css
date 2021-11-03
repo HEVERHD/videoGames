@@ -39,7 +39,7 @@
 .searchbar input {
   height: 90%;
   background-color: rgb(117, 117, 117);
-  color: #ffffff;
+  color: #000000;
   border-radius: 5px 0px 0px 5px;
   border: 1px solid white;
 }
