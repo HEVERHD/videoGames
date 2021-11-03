@@ -6,7 +6,7 @@ export default function loading() {
 		<div>
 			<img
 				className='loading'
-				src='https://tenor.com/es/ver/loading-cargando-gif-15269201'
+				src='https://c.tenor.com/XK37GfbV0g8AAAAi/loading-cargando.gif'
 				alt='Link caido'
 			/>
 		</div>
