@@ -20,13 +20,16 @@
 .logos{
     display: flex;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .img{
     height: 17 vh;
 }
 .img1{
-    height: 8vh;
+    height: 20vh;
+}
+.img2{
+    height: 50vh;
 }
 

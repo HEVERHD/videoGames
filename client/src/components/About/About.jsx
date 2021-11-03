@@ -1,6 +1,7 @@
 import React from 'react';
 import reactlogo from './images/react.svg';
 import reduxlogo from './images/redux.svg';
+import negrohd from './images/negrohd.png';
 import postgrelogo from './images/postgresql.svg';
 import sequelizelogo from './images/sequelize.svg';
 import expresslogo from './images/express.svg';
@@ -24,6 +25,7 @@ function About() {
 				<img className='img1' src={reactlogo} alt='Link caido' />
 				<img className='img' src={reduxlogo} alt='Link caido' />
 				<img className='img' src={expresslogo} alt='Link caido' />
+				<img className='img1' src={negrohd} alt='Link caido' />
 				<img className='img' src={postgrelogo} alt='Link caido' />
 				<img className='img' src={sequelizelogo} alt='Link caido' />
 			</div>
