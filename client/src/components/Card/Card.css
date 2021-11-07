@@ -2,10 +2,10 @@
 
 .card {
 	
-	border: 1px solid rgba(255, 255, 255, 0.489);
+	border: 1px solid rgba(45, 0, 75, 0.489);
 	border-radius: 10px;
-	background-color: rgba(255, 255, 255, 0.09);
-	box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.313);
+	background-color: rgba(55, 0, 71, 0.09);
+	box-shadow: 2px 2px 40px rgba(31, 0, 66, 0.733);
 	width: 300px;
 	height: 250px;
 	margin-top: 5px;
@@ -60,7 +60,7 @@
 .divRating {
 	color: whitesmoke;
 	border: 2px solid rgb(255, 232, 232);
-	background-color: rgb(17, 0, 47);
+	background-color: rgba(34, 0, 93, 0.671);
 	height: 30px;
 	width: 30px;
 	border-radius: 100%;
