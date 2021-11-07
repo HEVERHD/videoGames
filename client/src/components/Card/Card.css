@@ -40,7 +40,7 @@
 	font-family: 'RocknRoll One', sans-serif;
 	display: flex;
 	align-items: flex-start;
-	/* height: 24vh; */
+	
 }
 
 .img {
@@ -58,8 +58,9 @@
 }
 
 .divRating {
+	color: whitesmoke;
 	border: 2px solid rgb(255, 232, 232);
-	background-color: rgb(142, 81, 255);
+	background-color: rgb(17, 0, 47);
 	height: 30px;
 	width: 30px;
 	border-radius: 100%;

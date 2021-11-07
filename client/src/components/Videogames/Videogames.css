@@ -5,9 +5,11 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin: 40px auto 100px auto;
+   
     
     
 }
