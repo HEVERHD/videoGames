@@ -1,10 +1,12 @@
 .pagination {
-    border: 2px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px ;
-    background-color: rgba(0, 0, 0, 0.108);
+    position: fixed;
+	bottom: 0;
+	background: #100a1f;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 10px;
 }
 
 .pagination button{

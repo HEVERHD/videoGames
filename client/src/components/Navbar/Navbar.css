@@ -4,7 +4,7 @@
 .navBar {
     width: 100%;
     height: 5vh;
-    background: rgb(104, 104, 104);
+    background: #100a1f;
     display: flex;
     align-items: center;
     justify-content: center;
