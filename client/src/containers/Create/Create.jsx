@@ -98,7 +98,8 @@ export default function Create() {
 
 	return (
 		<div className='container'>
-			<h1>Estas a punto de crear un Juego!</h1>
+			<h1>ESTAS A PUNTO DE CREAR UN JUEGO!</h1>
+			<h3>Rellena los siguientes campos</h3>
 			<form
 				id='survey-form'
 				className='form'
@@ -199,7 +200,7 @@ export default function Create() {
 						</div>
 					</div>
 					<button className='button' type='submit'>
-						Create!
+						CREAR!
 					</button>
 				</div>
 			</form>

@@ -13,11 +13,11 @@
     align-items: center;
     align-content: center;
     margin-bottom: 15px;
-    height: 5vh;
+    height: 2vh;
 }
 
 .title h2 {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Bebas Neue', cursive;
     font-size: 350%;
     color: #160077;
 }
@@ -25,7 +25,7 @@
 .title button {
   cursor: pointer;
   font-size: 300%;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Bebas Neue', cursive;
     color: rgb(255, 255, 255);
     font-size: 300%;
   
@@ -34,6 +34,7 @@
 }
 
 .title button:hover {
+  transition: all 0.8s ease;
   color: #9ba5ff;
   cursor: pointer;
   font-size: 250%;

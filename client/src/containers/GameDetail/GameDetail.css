@@ -30,7 +30,7 @@
 }
 
 .button {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bebas Neue', cursive;
       color: rgb(79, 82, 255);
       font-size: 120%;
       border: solid 1px rgb(202, 202, 202);
@@ -39,8 +39,10 @@
   }
   
   .button:hover {
+    transition: all 0.8s ease;
+    color: seashell;
       background : rgb(79,82,255);
       cursor: pointer;
       font-size: 125%;
-      text-shadow: 0 0 5px rgb(52, 66, 255),
+      text-shadow: 0 0 5px rgb(255, 255, 255),
   };
