@@ -31,15 +31,16 @@
 
 .button {
     font-family: 'Poppins', sans-serif;
-      color: white;
+      color: rgb(79, 82, 255);
       font-size: 120%;
-      border: solid 1px white;
+      border: solid 1px rgb(202, 202, 202);
       border-radius:20px;
       background:none;
   }
   
   .button:hover {
+      background : rgb(79,82,255);
       cursor: pointer;
       font-size: 125%;
-      text-shadow: 0 0 5px #fff,
+      text-shadow: 0 0 5px rgb(52, 66, 255),
   };

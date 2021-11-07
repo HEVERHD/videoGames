@@ -98,7 +98,7 @@ export default function Create() {
 
 	return (
 		<div className='container'>
-			<h1>Create your Videogame!</h1>
+			<h1>Estas a punto de crear un Juego!</h1>
 			<form
 				id='survey-form'
 				className='form'

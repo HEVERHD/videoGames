@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
 
 .card {
-	border-color: red 3px solid;
+	
 	border: 1px solid rgba(255, 255, 255, 0.489);
 	border-radius: 10px;
 	background-color: rgba(255, 255, 255, 0.09);
@@ -44,7 +44,7 @@
 }
 
 .img {
-	border-color: red 3px solid;
+	width: 100px;
 	height: 24vh;
 	width: 300px;
 	overflow: hidden;
@@ -59,7 +59,7 @@
 
 .divRating {
 	border: 2px solid rgb(255, 232, 232);
-	background-color: rgb(238, 255, 0);
+	background-color: rgb(142, 81, 255);
 	height: 30px;
 	width: 30px;
 	border-radius: 100%;

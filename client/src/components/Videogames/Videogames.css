@@ -1,10 +1,13 @@
 .showing{
-    border-color: red 3px solid;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
-    width: 99%;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
 }
