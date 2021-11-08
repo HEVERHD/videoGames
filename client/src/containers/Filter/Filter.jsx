@@ -15,7 +15,7 @@ export function Filter({ paginate }) {
 
 	useEffect(() => {
 		dispatch(getGenres());
-	}, []); // eslint-disable-line react-hooks/exhaustive-deps
+	}, []);
 
 	// Filtrado por genre
 	const handleFilter = (e) => {

@@ -13,25 +13,23 @@ function App() {
 	return (
 		<div className='App'>
 			<React.Fragment>
-				<Route exact path='/' component={LandingPage} />
-
+				<Route path='/results' component={NavBar} />
 				<Route path='/home' component={NavBar} />
 				<Route exact path='/home' component={Home} />
-
-				<Route path='/results' component={NavBar} />
+				<Route exact path='/' component={LandingPage} />
 				<Route exact path='/results/:name' component={Search} />
-
 				<Route path='/videogames' component={NavBar} />
+
 				<Route
 					exact
 					path='/videogames/:id'
 					render={({ match }) => <GameDetail id={match.params.id} />}
 				/>
 
+				<Route path='/about' component={NavBar} />
 				<Route path='/create' component={NavBar} />
 				<Route path='/create' exact component={Create} />
 
-				<Route path='/about' component={NavBar} />
 				<Route path='/about' component={About} />
 			</React.Fragment>
 		</div>
